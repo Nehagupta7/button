@@ -1,0 +1,50 @@
+/* css  reset*/
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #ffffffcc;
+  }
+/* container id used to hold the button */
+ #container{
+    height: 120px;
+    width: 250px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% ,-50%);
+    text-align: center;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+    border: 2px solid #fffff6;
+    box-shadow: -7px -7px 10px rgb(255 255 255 / 45%), -1px 3px 3px rgb(0 0 0 / 8%), inset -5px -17px 13px rgb(255 255 255 / 50%), inset -4px -4px 14px rgb(0 0 0 / 8%);
+    border-radius:40px;
+    transition: all  1s ease-in-out;
+}
+/* when the checkbox is unchecked */
+.switch-holder  input[type="checkbox"]+label{
+    position: relative;
+    display: inline-block;
+    width: 90px;
+    height: 93px;
+    border-radius: 40px;
+    padding: 30px;
+    margin: -8px;
+    font-size: 32px;
+    background-color: transparent;
+    cursor: pointer;
+    color:red;
+    box-shadow: inset -4px -4px 12px rgb(255 255 255 / 0%), inset 4px 4px 12px rgb(0 0 0 / 10%);
+}
+/* when the checkbox is checked */
+.switch-holder  input[type="checkbox"]:checked+label{
+    left:150%;
+    content:'\f011';
+    color:green;
+    background-color: transparent;
+}
+/* checkbox hidden */
+.switch-holder input[type="checkbox"]{
+    visibility:hidden;
+}
