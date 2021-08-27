@@ -4,7 +4,7 @@
     padding:0;
     box-sizing: border-box;
     background-color: #ffffffcc;
-    transition: all  0.1s ;
+    transition: all  0.1s ease;
    
   }
 /* container id used to hold the button */
@@ -20,7 +20,7 @@
     display:flex;
     align-items: center;
     border: 2px solid #fffff6;
-    box-shadow:-4px -1px 16px rgb(255 255 255 / 0%), 2px 3px 16px rgb(0 0 0 / 3%), 3px -13px 14px rgb(255 255 255), 7px 9px 18px rgb(0 0 0 / 1%);
+    box-shadow:4px 4px 10px -5px rgb(0 0 0 /0.08), -2px -2px 3px #fbfbfb,5px 4px 20px #fffff4;
     border-radius: 60px;
 }
 /* when the checkbox is unchecked */
