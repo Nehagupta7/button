@@ -20,7 +20,7 @@
     display:flex;
     align-items: center;
     border: 2px solid #fffff6;
-    box-shadow:4px 4px 10px -5px rgb(0 0 0 /0.08), -2px -2px 3px #fbfbfb,5px 4px 20px #fffff4;
+   4px 4px 3px -3px #00000021, -4px -4px 10px -6px #80808040
     border-radius: 60px;
 }
 /* when the checkbox is unchecked */
